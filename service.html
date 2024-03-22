@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Washup</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- icon links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class=" text-white p-2 ">
+            <div class="row header-text">
+                <div class="col-md-6 header-bar" style="padding: 15px 100px;">
+                    <i class="fa-regular fa-envelope"></i> exampal@gmail.com
+
+                    <i class="fa-regular fa-clock"></i> Sun - Fri: 8.00am - 10.00pm
+                </div>
+                <div class="col-md-6 social-links" style="padding: 15px 100px;">
+                    <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="mobile-view">
+                    <nav class="navbar">
+                        <div class="logo">
+                            <img src="./assets/home/logo-1.png" alt="Washup Logo">
+                        </div>
+                        <button class="hamburger-menu">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </button>
+                        <ul class="nav-links">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    style="color: #056ed8; border-bottom: 2px solid #056ed8; padding-bottom: 3px;">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="index.html">Home 1</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Home 2</a>
+                                </div>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Service
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <a class="dropdown-item" href="./service.html">Our Services</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Bedroom Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Window Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Office Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Commercial Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">House Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Car Cleaning</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <a class="dropdown-item" href="#">Team</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Team Details</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Project</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Team Details</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Testimonial</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Gallery</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Gallery Details</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">FAQ</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Pricing</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">404 Page</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Book Now</a>
+                                    <div class="dropdown-divider"></div>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown4" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                    <a class="dropdown-item" href="#">Blog Grid</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Blog List</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Blog Details</a>
+                                </div>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+
+                        <button class="book-now-btn">BOOK NOW</button>
+                    </nav>
+                </div>
+                <div class="desktop-view">
+                    <nav class="navbar ">
+                        <div class="logo">
+                            <img src="./assets/home/logo-1.png" alt="Washup Logo">
+                        </div>
+
+                        <ul class="nav-links">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    style="color: #056ed8; border-bottom: 2px solid #056ed8; padding-bottom: 3px;">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="index.html">Home 1</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Home 2</a>
+                                </div>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Service
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <a class="dropdown-item" href="./service.html">Our Services</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Bedroom Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Window Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Office Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Commercial Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">House Cleaning</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Car Cleaning</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <a class="dropdown-item" href="#">Team</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Team Details</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Project</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Team Details</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Testimonial</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Gallery</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Gallery Details</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">FAQ</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Pricing</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">404 Page</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Book Now</a>
+                                    <div class="dropdown-divider"></div>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown4" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                    <a class="dropdown-item" href="#">Blog Grid</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Blog List</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Blog Details</a>
+                                </div>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+
+                        <button class="book-now-btn">BOOK NOW</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="aboout-main-container">
+        <div class="container about-text-container">
+            <h1>Our Services </h1>
+
+            <div class="breadcrumbs-container">
+                <li class="breadcrumbs-item">Home</li>
+                <li class="breadcrumbs-item">/</li>
+                <li class="breadcrumbs-item">Service</li>
+            </div>
+        </div>
+        <div class="about-overlay"></div>
+
+
+    </section>
+
+
+    <section class="services-container">
+        <div class="container">
+            <div class="service-background"></div>
+
+            <div class="col-md-12">
+                <h5 class="text-center">Our Services</h5>
+                <h2 class="text-center">We Provide Best Services</h2>
+            </div>
+
+            <!-- 3 cards -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/home/services-1.png" class="card-img-top" alt="...">
+                        <div class="overlay-card"></div>
+                        <div class="card-body">
+                            <i class="fas fa-bed fa-lg fa-2xl card-icon"></i>
+                            <h4 class="card-title">Bedroom Cleaning</h4>
+
+                            <p class="card-text">We provide janitorial and this specialized is services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/home/services-2.png" class="card-img-top" alt="...">
+                        <div class="overlay-card"></div>
+
+                        <div class="card-body">
+                            <i class="fas fa-window-maximize fa-lg fa-2xl card-icon"></i>
+                            <h4 class="card-title">Window Cleaning</h4>
+
+                            <p class="card-text">We provide janitorial and this specialized is services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/home/services-3.png" class="card-img-top" alt="...">
+                        <div class="overlay-card"></div>
+
+                        <div class="card-body">
+                            <i class="fas fa-building fa-lg fa-2xl card-icon"></i>
+                            <h4 class="card-title">Office Cleaning</h4>
+
+                            <p class="card-text">We provide janitorial and this specialized is services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/home/services-4.png" class="card-img-top" alt="...">
+                        <div class="overlay-card"></div>
+
+                        <div class="card-body">
+                            <i class="fas fa-building fa-lg fa-2xl card-icon"></i>
+                            <h4 class="card-title">Commercial Cleaning</h4>
+
+                            <p class="card-text">We provide janitorial and this specialized is services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/home/services-5.png" class="card-img-top" alt="...">
+                        <div class="overlay-card"></div>
+
+                        <div class="card-body">
+                            <i class="fas fa-home fa-lg fa-2xl card-icon"></i>
+                            <h4 class="card-title">House Cleaning</h4>
+
+                            <p class="card-text">We provide janitorial and this specialized is services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/home/services-6.png" class="card-img-top" alt="...">
+                        <div class="overlay-card"></div>
+
+                        <div class="card-body">
+                            <i class="fas fa-car fa-lg fa-2xl card-icon"></i>
+                            <h4 class="card-title">Car Cleaning</h4>
+
+                            <p class="card-text">We provide janitorial and this specialized is services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section" id="brands-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="sel" id="container-brands" style="height: 32rem; overflow: hidden; padding: 0 2rem">
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                            <div class="item"><img src="./assets/home/brand-1-1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-container contact-container-book">
+
+        <div class="container" style="display: flex;">
+            <div class="contact-background-overlay"> </div>
+            <div class="col-md-10 contact-main-container">
+                <h2>Call us to Take an Extraordinary Service!</h2>
+                <h5>Call: +04523465697</h5>
+
+
+
+            </div>
+            <div class="col-md-2 contact-main-container">
+                <button class="cotact-btn-book">BOOK NOW</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects-container team-container">
+        <img src="./assets/home/team-overlay.png" class="overlay-team">
+        <div class="container">
+            <div class="col-md-12">
+                <h5 class="text-center">Professional People</h5>
+                <h2 class="text-center">Meet Our Team</h2>
+            </div>
+            <div class="parent">
+                <div class="div1"><img src="./assets/home/team-3.png" alt="projec1"> </div>
+                <div class="div2"><img src="./assets/home/team-2.png" alt="projec2"> </div>
+                <div class="div3"><img src="./assets/home/team-4.png" alt="projec3"> </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    
+
+
+
+    <div class="container-fluid my-5">
+
+        <footer class="text-white text-center text-lg-start">
+            <div class="container p-4">
+                <div class="row mt-4">
+                    <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+                        <!-- logo   -->
+                        <img src="./assets/home/footer-logo1.png" alt="Washup Logo">
+                        <p>
+                            We help businesses maximize their online presence with a personalized approach to digital
+                            marketing.
+                        </p>
+                        <div class="mt-4">
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul style="list-style: none; gap: 10px; display: flex; flex-direction: column;">
+                            <h5 class=" mb-4 pb-1 foot-links">Useful Links</h5>
+
+                            <li>
+                                <a href="#!" class="text-white use-links">About</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Services</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Testimonial</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Team</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul style="list-style: none; gap: 10px; display: flex; flex-direction: column;">
+                            <h5 class=" mb-4">Our Service</h5>
+
+                            <li>
+                                <a href="#!" class="text-white use-links">Bedroom Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Window Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Office Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">Commercial Cleaning</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white use-links">House Cleaning</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+                        <h5 class=" mb-4">Gallery</h5>
+
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./assets/home/footer-1.png" alt="gallery1">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/home/footer-2.png" alt="gallery2">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/home/footer-3.png" alt="gallery3">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/home/footer-4.png" alt="gallery1">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/home/footer-5.png" alt="gallery2">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/home/footer-6.png" alt="gallery3">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="text-center p-3">
+                    Copyright © 2023 Washup. All Rights Reserved.
+                </div>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
